@@ -294,6 +294,7 @@ padding: 50px;
   margin: 20px 70px 40px 70px;
 }
 /* recent news section end */
+/* donate section start */
 
 .donate{
   margin: 20px 70px 40px 35px;
@@ -310,4 +311,28 @@ padding: 50px;
   color: rgba(14, 14, 14, 0.7);
   font-weight: 400;
   font-size: 14px;
+}
+/* donate box design */
+.flex-container{
+  display: flex;
+  margin: 20px 70px 40px 35px;
+  justify-content: center;
+  
+}
+.flex-container>div{
+  font-weight: 800;
+  font-size: 25px;
+  color: rgba(14, 14, 14, 0.8);
+  
+  margin: 20px;
+  border: solid rgba(14, 14, 14, 0.15);
+  width: 140px;
+  height: 60px;
+  padding: 32px 0px 0px 0px;
+  text-align: center;
+  border-radius: 8px;
+ 
+}
+.two-hundred{
+  background-color: #C6E4D6;
 }
