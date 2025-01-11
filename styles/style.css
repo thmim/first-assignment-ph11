@@ -14,11 +14,8 @@
   .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #F5F5F5;
-    
     margin: 23px 70px 23px 70px;
    
-    
   }
   .nav-item{
     color: #0E0E0E;
@@ -48,8 +45,7 @@
     margin: 0px 70px 40px 70px;
     border-radius: 15px;
     align-items: center;
-    /* position: relative; */
-    /* gap: 424px; */
+    
   }
   .btn-primary{
     color: #FFFFFF;
@@ -76,7 +72,7 @@
 .banner-pic{
     width: 470px;
     height: 400px;
-    /* display: inline block; */
+    
 }
 .btn-primary:hover{
     background-color: red;
@@ -90,10 +86,6 @@
   display: flex;
   justify-content: center;
   gap: 150px;
-  
-  
- 
-  
   }
 .pillars{
   margin: 0 70px 40px 70px;
@@ -226,6 +218,35 @@ padding: 50px;
 }
 /* vision section end */
 
+
+.quote{
+  margin: 20px 70px 40px 70px;
+  border: solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-position: 10px 5px;
+    background-size: 60px 60px;
+
+}
+.younus-quote{
+  margin: 12px 12px 15px 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 350px;
+  font-size: 13px;
+
+}
+.advisor{
+  margin: 12px 12px 0px 12px;
+}
+.chief-advisor{
+  margin: 5px 12px 15px 12px;
+  color: rgba(14, 14, 14, 0.6);
+  font-weight: 300px;
+  font-size: 10px;
+}
+
 /* recent news section start */
 
 .date-point{
@@ -337,7 +358,7 @@ padding: 50px;
   background-color: #C6E4D6;
 }
 .hundred:hover{
-  background-color: #C6E4D6;
+  background-color: #c6e4c6;
 
 }
 .amount{
@@ -369,7 +390,73 @@ padding: 50px;
   background-color: #006A50;
   border-radius: 6px;
   border: none;
+
 }
 .donate-btn:hover{
   background-color: red;
 }
+/* donate box design end */
+
+/* footer section design start */
+.newsletter-section{
+  
+  justify-content: center;
+  align-items: center;
+  }
+
+.newsletter-title{
+  color: #0E0E0E;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.newsletter-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 350px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.subscribe{
+  height: 45px;
+  width: 110px;
+  background-color: #006A50;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  border-radius: 0 7px 7px 0;
+}
+.subscribe:hover{
+  background-color: red;
+}
+.newsletter-div{
+ 
+  background-color: #C6E4D6;
+  height: 320px;
+  width: 1320px;
+  border-radius: 30px;
+  margin: 50px 90px 50px 90px;
+  text-align: center;
+  padding-top: 80px;
+  
+}
+.email{
+  width: 445px;
+  height: 45px;
+  border: none;
+  border-radius: 7px 0 0 7px;
+  text-align: center;
+}
+.for-subscribe{
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+}
+.last{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
