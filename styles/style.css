@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fira-sans{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFFFFF;
+  }
+
+  /* nav style start */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    
+    margin: 23px 70px 23px 70px;
+   
+    
+  }
+  .nav-item{
+    color: #0E0E0E;
+    font-weight: 650px;
+    font-size: 20px;
+  }
+  .nav-button{
+    background-color: #F5F5F5;
+    color: #006A50;
+    border: 1px solid #006A50;
+    height: 27px;
+    width: 62px;
+    border-radius: 5px;
+    font-weight: 70s0px;
+    font-size: 15px;
+    padding: 4px 5px 4px 5px;
+  }
+  .nav-button:hover{
+    background-color: bisque;
+  }
+  /* banner design start */
+  .banner-content{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 40px 60px;
+    margin: 0px 70px 40px 70px;
+    border-radius: 15px;
+    align-items: center;
+    /* position: relative; */
+    /* gap: 424px; */
+  }
+  .btn-primary{
+    color: #FFFFFF;
+    font-weight: 500px;
+    font-size: 10px;
+    padding: 4px 6px 4px 6px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    width: 165px;
+    height: 40px;
+  }
+  .banner-title{
+    color: #0E0E0E;
+    font-weight: 450;
+    font-size: 14px;
+    opacity: 50%;
+  }
+  .banner-moto{
+    color: #0E0E0E;
+    font-weight: 800;
+    font-size: 40px;
+  }
+.banner-pic{
+    width: 470px;
+    height: 400px;
+    /* display: inline block; */
+}
+.btn-primary:hover{
+    background-color: red;
+}
+/* banner design end */
+
+/* main design start */
+
+/* pillars section */
+.pillars-details{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  
+  
+ 
+  
+  }
+.pillars{
+  margin: 0 70px 40px 70px;
+}
+.pillars-heading{
+  margin-bottom: 20px;
+}
+.pillars-item{
+  border: 2px solid #ddd;
+  
+  border-radius: 10px;
+  
+  padding: 10px;
+  height: 190px;
+  width: 210px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  
+}
+.pillar-sign{
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.pillars-title{
+  color: #0E0E0E;
+  opacity: 80%;
+  font-weight: 600px;
+  font-size: 14px;
+  margin-bottom: 10pxs;
+}
+.pillars-description{
+  color: #0E0E0E;
+  opacity: 60%;
+  font-weight: 300px;
+  font-size: 12px;
+}
+
+/* vision section */
+
+.vision-of-future{
+  margin: 0 70px 40px 70px;
+
+}
+.vision-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  
+  
+}
+.vision-description{
+  margin: 10px 0px 10px 0px;
+}
+.vision-items-1{
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 10px;
+  padding: 50px;
+
+}
+.vision-items-2{
+background-color: rgba(198, 228, 214, 1);
+border-radius: 10px;
+padding: 50px;
+}
+.vision-items-3{
+background-color: rgba(247, 235, 207, 1);
+border-radius: 10px;
+padding: 50px;
+
+}
+.item-pic{
+  margin-bottom: 10px;
+}
+.item-title{
+  margin-bottom: 10px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 700;
+  font-size: 16px;
+}
+.item-description{
+  margin-bottom: 10px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 350px;
+  font-size: 12px;
+}
+.item-button{
+  margin-bottom: 10px;
+}
+.item-btn-1{
+  background-color: #5490F5;
+  color: #FFFFFF;
+  font-weight: 450px;
+  font-size: 11px;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+}
+.item-btn-2{
+  background-color: #09A15C;
+  color: #FFFFFF;
+  font-weight: 450px;
+  font-size: 11px;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+}
+.item-btn-3{
+  background-color: #FFC239;
+  color: #FFFFFF;
+  font-weight: 450px;
+  font-size: 11px;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+}
+.item-btn-1:hover{
+  background-color:#09A15C ;
+
+}
+.item-btn-2:hover{
+  background-color:#5490F5;
+
+}
+.item-btn-3:hover{
+  background-color:coral;
+
+}
+/* vision section end */
+
+
+
+
+
