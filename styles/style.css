@@ -226,7 +226,88 @@ padding: 50px;
 }
 /* vision section end */
 
+/* recent news section start */
 
+.date-point{
+  display: flex;
+  gap: 10px;
+}
+.recent-news{
+  margin-bottom: 10px;
+  color: #0E0E0E;
+  font-weight: 700;
+  font-size: 25px;
+}
+.recent-news-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 350px;
+  font-size: 13px;
+}
+.news-section{
+  margin: 20px 70px 40px 70px;
+}
+.recent-news-content{
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+}
+.satelite{
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+}
+.news-data-title{
+  margin-bottom: 15px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 600;
+  font-size: 23px;
+}
+.aljageera{
+  margin-bottom: 15px;
+}
+.date-point{
+  margin-bottom: 15px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400px;
+  font-size: 15px;
+}
+.news-data-details{
+  margin-bottom: 25px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400px;
+  font-size: 15px;
+}
+.read-more-btn{
+  color: #FFFFFF;
+  background-color: #006A50;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 6px;
 
+}
+.read-more-btn:hover{
+  background-color: red;
+}
+/* recent news section end */
+.another-news-section{
+  margin: 20px 70px 40px 70px;
+}
+/* recent news section end */
 
+.donate{
+  margin: 20px 70px 40px 35px;
+  text-align: center;
 
+}
+.donate-today{
+  margin-bottom: 10px;
+  color: #0E0E0E;
+  font-weight: 700px;
+  font-size: 28px;
+}
+.why-donate{
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+  font-size: 14px;
+}
