@@ -336,3 +336,40 @@ padding: 50px;
 .two-hundred{
   background-color: #C6E4D6;
 }
+.hundred:hover{
+  background-color: #C6E4D6;
+
+}
+.amount{
+  margin: 20px 70px 40px 70px;
+  text-align: center;
+  width: 900px;
+  height: 50px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: argba(14, 14, 14, 0.3);
+  font-weight: 300px;
+  font-size: 12px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.input{
+  text-align: center;
+  
+}
+.done{
+  margin: 20px 70px 40px 70px;
+  text-align: center;
+  
+}
+.donate-btn{
+  width: 140px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #006A50;
+  border-radius: 6px;
+  border: none;
+}
+.donate-btn:hover{
+  background-color: red;
+}
